@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  top: -40px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.card {
+  width: 280px;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-pic {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  display: block;
+}
+
+.content {
+  padding: 15px;
+}
+
+.info-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.info-table td {
+  border: none;
+  padding: 2px 0;
+  text-align: center;
+}
+
+.name {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: gray;
+  font-size: 14px;
+}
+
+.location {
+  font-size: 14px;
+  color: #555;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.icons a {
+  display: inline-block;
+  line-height: 0;
+}
+
+.icons img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.icons img:hover {
+  opacity: 1;
+}
+
+.contact {
+  background: black;
+  color: white;
+  padding: 15px 0;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  transition: background 0.3s ease;
+}
+
+.contact:hover {
+  background: #333;
+}
