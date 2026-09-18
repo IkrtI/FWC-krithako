@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ikrt — CECS student at KMITL and web developer.">
+    <title>Ikrt — Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-[#f8fafc] font-sans text-slate-900 antialiased">
+    <header class="fixed inset-x-0 top-0 z-50 border-b border-slate-200/80 bg-white/85 backdrop-blur-lg">
+        <nav class="mx-auto flex max-w-5xl items-center justify-between px-6 py-4" aria-label="Main navigation">
+            <a href="index.html" class="font-black tracking-tight text-slate-900">I<span class="text-violet-500">.</span></a>
+            <div class="flex items-center gap-5 text-sm font-semibold text-slate-500"><a class="hover:text-slate-900" href="#about">About</a><a class="hover:text-slate-900" href="#showcase">Showcase</a><a class="hover:text-slate-900" href="#contact">Contact</a></div>
+        </nav>
+    </header>
+
+    <main class="px-6 pb-20 pt-32 sm:pt-40">
+        <section id="about" class="mx-auto max-w-5xl">
+            <div class="grid items-center gap-10 md:grid-cols-[1fr_auto]">
+                <div>
+                    <h1 class="text-5xl font-black tracking-tight sm:text-7xl">Hi, I'm <span class="text-violet-500">Ikrt.</span></h1>
+                    <p class="mt-5 text-xl font-medium text-slate-500">CECS @ KMITL</p>
+                    <p class="mt-7 max-w-xl text-lg leading-8 text-slate-600">I enjoy building thoughtful interfaces with simple, modern technologies. This is a small collection of the tools and work I am exploring.</p>
+                    <a href="#showcase" class="mt-8 inline-flex items-center gap-2 rounded-full bg-slate-900 px-5 py-3 text-sm font-bold text-white transition hover:bg-violet-600">Explore my work <span aria-hidden="true">↓</span></a>
+                </div>
+                <img src="https://i.pinimg.com/1200x/67/30/59/673059f8fd148ed445dd3970501db41b.jpg" alt="Portrait of Ikrt" class="h-56 w-56 rounded-[2rem] object-cover shadow-2xl shadow-violet-200 sm:h-72 sm:w-72">
+            </div>
+        </section>
+
+        <section id="showcase" class="mx-auto mt-24 max-w-5xl">
+            <div class="mb-8 flex items-end justify-between gap-4"><div><p class="mb-2 text-sm font-bold uppercase tracking-[0.25em] text-violet-500">What I use</p><h2 class="text-3xl font-black sm:text-4xl">Core technologies</h2></div></div>
+            <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                <div class="rounded-2xl border border-slate-200 bg-white p-6"><p class="text-sm font-bold text-slate-400">01</p><h3 class="mt-8 text-xl font-black">HTML &amp; CSS</h3><p class="mt-2 text-sm leading-6 text-slate-500">Solid foundations for accessible, responsive pages.</p></div>
+                <div class="rounded-2xl border border-slate-200 bg-white p-6"><p class="text-sm font-bold text-slate-400">02</p><h3 class="mt-8 text-xl font-black">Tailwind</h3><p class="mt-2 text-sm leading-6 text-slate-500">Fast, consistent styling with utility-first design.</p></div>
+                <div class="rounded-2xl border border-slate-200 bg-white p-6"><p class="text-sm font-bold text-slate-400">03</p><h3 class="mt-8 text-xl font-black">JS &amp; Next.js</h3><p class="mt-2 text-sm leading-6 text-slate-500">Interactive experiences and modern web apps.</p></div>
+            </div>
+            <a href="https://ikrt.dev" target="_blank" rel="noopener noreferrer" class="group mt-6 flex items-center justify-between rounded-2xl bg-violet-500 p-6 text-white transition hover:bg-violet-600 sm:p-8"><div><p class="text-sm font-bold uppercase tracking-[0.2em] text-violet-100">Featured showcase</p><h3 class="mt-2 text-2xl font-black">ikrt.dev</h3><p class="mt-1 text-sm text-violet-100">Visit my personal website</p></div><span class="text-3xl transition-transform group-hover:translate-x-1" aria-hidden="true">↗</span></a>
+        </section>
+
+        <section id="contact" class="mx-auto mt-24 max-w-5xl rounded-3xl bg-slate-900 p-8 text-white sm:p-12">
+            <p class="text-sm font-bold uppercase tracking-[0.25em] text-violet-300">Get in touch</p><h2 class="mt-3 text-3xl font-black sm:text-4xl">Let's connect.</h2><p class="mt-4 max-w-md leading-7 text-white/60">Find more of my work and experiments on GitHub.</p>
+            <a href="https://github.com/IkrtI" target="_blank" rel="noopener noreferrer" class="mt-8 inline-flex items-center gap-3 rounded-full bg-white px-5 py-3 text-sm font-bold text-slate-900 transition hover:bg-violet-200">GitHub <span aria-hidden="true">↗</span></a>
+        </section>
+    </main>
+    <footer class="px-6 pb-8 text-center text-sm text-slate-400"><a href="index.html" class="hover:text-slate-700">← Back to both profiles</a></footer>
+</body>
+</html>
